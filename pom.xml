@@ -40,18 +40,18 @@
       
   
 	 <scm>
-	<connection>scm:svn:http://192.168.33.10:8084/subversion/</connection>
-        <developerConnection>scm:svn:http://192.168.33.10:8084/subversion/</developerConnection>
+	<connection>scm:git:https://github.com/saivinodkumar1234/nexus.git/</connection>
+        <developerConnection>scm:git:https://github.com/saivinodkumar1234/nexus.git/</developerConnection>
     </scm>
    
 	<distributionManagement>
                 <repository>
-			<id>ARTECHDevops</id>
-			<url>http://localhost:8081/nexus/content/repositories/ARTECHDevops/</url>
+			<id>svn</id>
+			<url>http://localhost:8081/nexus/content/repositories/svn/</url>
 		</repository>
                 <snapshotRepository>
-        <id>ARTECHAWS</id>
-        <url>http://localhost:8081/nexus/content/repositories/ARTECHAWS/</url>
+        <id>svn</id>
+        <url>http://localhost:8081/nexus/content/repositories/svn/</url>
     </snapshotRepository>
    </distributionManagement>
 
