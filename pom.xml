@@ -508,9 +508,9 @@
      </url>
    </repository>
     <snapshotRepository>	
-        <id>pcr</id>
+        <id>Releases</id>
     <url>
-       http://18.216.145.93:8081/nexus/content/repositories/pcr/
+       http://18.216.145.93:8081/nexus/content/repositories/Releases/
   </url>
     </snapshotRepository>
   </distributionManagement>
